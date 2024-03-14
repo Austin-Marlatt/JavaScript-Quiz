@@ -1,3 +1,41 @@
+/* applies aa font to all elements */
+* {
+  font-family: 'Courier New', monospace;
+}
+
+/* class used to dynamically hide elements not in use */
 .hide {
-    display: none;
+  display: none;
+}
+
+/* sets background color for the body */
+body {
+  background-color: rgb(104, 102, 101);
+}
+
+/* center the title and display it larger */
+header {
+  text-align: center;
+  font-size: x-large;
+}
+
+/* place start button in the center */
+#start-button {
+  position: absolute;
+  left: 50%
+}
+
+/* position timer on the right side of the screen, make it larger and italicised*/
+#timer {
+  position: absolute;
+  right: 5%;
+  font-size: 35px;
+  font-style: italic;
+}
+
+/* question and answers are pusched to the right a little, set larger font */
+#test-card {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 20px;
 }

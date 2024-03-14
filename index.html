@@ -8,18 +8,27 @@
 </head>
 <header>
     <h1>JavaScript Quiz</h1>
+    <!-- displays the active timer -->
     <div id="timer"></div>
 </header>
 <body>
 
+    <!-- button used to start test -->
     <button id="start-button" type="button">Start Test</button>
 
+    <!-- used to write the final score at quiz end -->
     <div id="final-score"></div>
+
+    <!-- input field for user's initials -->
+    <p class="hide" id="save-score">Enter Initials: <input type="text" id="initial-entry" /> <button id="submit-button">submit</button> </p>
+
+    <!-- used to write question and answers-->
     <card id = "test-card">
         <div id="question"></div>
         <ol id="answers"></ol>
     </card>
 
+    <!-- script tag to link js -->
     <script src="assets/script.js"></script>
 </body>
 </html>
